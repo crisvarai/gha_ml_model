@@ -1,0 +1,9 @@
+albumentations==1.3.0
+certifi==2022.9.24
+conda==22.9.0
+jupyter==1.0.0
+matplotlib==3.6.0
+numpy==1.23.4
+pywin32==303
+torch==1.12.1+cu116
+torchvision==0.13.1+cu116
