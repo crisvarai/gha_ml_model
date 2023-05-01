@@ -59,7 +59,7 @@ if __name__ == "__main__":
         logging.info("Load last model weights")
         model = load_model(model, args.wgts_path).to("cpu")
     except FileNotFoundError:
-        logging.warning(f"No previous weights in: {args.data_path}")
+        logging.warning(f"No previous weights in: {args.data_path}, first training cycle")
 
     logging.info("Start training...")
     fit(model=model,
